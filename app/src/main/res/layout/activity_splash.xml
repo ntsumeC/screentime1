@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="627dp"
+        android:layout_height="292dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="670dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ScreenSmartTextView"
+        android:layout_width="347dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="545dp"
+        android:text="ScreenSmart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="481dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="412dp"
+        android:text="Lithemba Ntsume"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/StuNoTextView"
+        android:layout_width="347dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="256dp"
+        android:text="ST10460350"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="198dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="789dp"
+        android:layout_marginEnd="409dp"
+        android:layout_marginBottom="90dp"
+        android:text="Let's Go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="221dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="788dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="90dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/screensmartTextView1"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="476dp"
+        android:text="Screen Smart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="279dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="404dp"
+        android:text="Lithemba Ntsume"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/StudentTextView"
+        android:layout_width="256dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="324dp"
+        android:text="ST10460350"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="244dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="59dp"
+        android:text="Exit"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="194dp"
+        android:text="Let's Go"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

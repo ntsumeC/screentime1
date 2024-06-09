@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/LogoImageView1"
+        android:layout_width="956dp"
+        android:layout_height="416dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="248dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="736dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="908dp"
+        android:text="Add"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="248dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="720dp"
+        android:layout_marginTop="880dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="512dp"
+        android:text="Clear"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ViewDetailsTextView"
+        android:layout_width="492dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="1364dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="76dp"
+        android:text="View Details"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="615dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="791dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/screensmartTextView1"
+        android:layout_width="282dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="691dp"
+        android:text="Screen Smart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/DateEditText"
+        android:layout_width="455dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="602dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="28-05-2024"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/morningEditText"
+        android:layout_width="456dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="502dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="morning screen time"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/afternoonEditText"
+        android:layout_width="452dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="418dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="afternoon screen time"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/activitynotesEditText"
+        android:layout_width="457dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="activity notes"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/averageTextView"
+        android:layout_width="457dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="766dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="236dp"
+        android:text="average screen time"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="920dp"
+        android:layout_marginEnd="497dp"
+        android:layout_marginBottom="85dp"
+        android:text="add"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="926dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="79dp"
+        android:text="clear"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewdetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="406dp"
+        android:layout_marginTop="926dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="79dp"
+        android:text="view details"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
